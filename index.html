@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificlash - Web Oficial</title>
+    <style>
+        :root {
+            --primary: #2563EB;
+            --dark: #1F2937;
+            --light: #F3F4F6;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--dark);
+        }
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+        
+        .app-logo {
+            width: 120px; 
+            height: auto;
+            border-radius: 22px; 
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #111;
+        }
+        p.tagline {
+            color: #666;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px 0;
+            margin: 10px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+        }
+        .btn-secondary {
+            background-color: white;
+            color: var(--dark);
+            border: 2px solid #E5E7EB;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #999;
+        }
+        .footer a { color: #999; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="Notificlash Logo" class="app-logo">
+        
+        <h1>Notificlash</h1>
+        <p class="tagline">Gestiona tus notificaciones de Clash of Clans de forma inteligente.</p>
+
+        <a href="https://sites.google.com/view/privacy-policy-notificlash" class="btn btn-primary">
+            🔒 Ver Política de Privacidad
+        </a>
+
+        <a href="mailto:efertre.contacto@gmail.com" class="btn btn-secondary">
+            ✉️ Contactar con Soporte
+        </a>
+
+        <div class="footer">
+            <p>&copy; 2025 Notificlash. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+</body>
+</html>
